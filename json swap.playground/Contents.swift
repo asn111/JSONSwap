@@ -3,13 +3,297 @@ import UIKit
 var str = "Hello, playground"
 //print(str)
 
+
+let jsonObject4 = [
+    "United States": [
+        [
+            "Aeris Comm. Inc.": "310 850",
+            "Airtel Wireless LLC": "310 510",
+            "Allied Wireless Communications Corporation": "312 90",
+            "Arctic Slope Telephone Association Cooperative Inc.": "310 710",
+            "AT&T Wireless Inc.": "310 70",
+            "Bluegrass Wireless LLC": "311 810",
+            "Cable & Communications Corp.": "310 900",
+            "California RSA No. 3 Limited Partnership": "311 590",
+            "Cambridge Telephone Company Inc.": "311 500",
+            "Caprock Cellular Ltd.": "310 830",
+            "Verizon Wireless": "311 286",
+            "Cellular Network Partnership LLC": "312 270",
+            "Choice Phone LLC": "311 120",
+            "Cincinnati Bell Wireless LLC": "310 420",
+            "Cingular Wireless": "310 180",
+            "Coleman County Telco /Trans TX": "310 620",
+            "Consolidated Telcom": "310 6",
+            "Cross Valliant Cellular Partnership": "310 700",
+            "Cross Wireless Telephone Co.": "312 30",
+            "Custer Telephone Cooperative Inc.": "312 40",
+            "Dobson Cellular Systems": "310 440",
+            "E.N.M.R. Telephone Coop.": "310 990",
+            "East Kentucky Network LLC": "310 750",
+            "Edge Wireless LLC": "310 90",
+            "Elkhart TelCo. / Epic Touch Co.": "310 610",
+            "Farmers": "311 311",
+            "Fisher Wireless Services Inc.": "311 460",
+            "GCI Communication Corp.": "310 430",
+            "Get Mobile Inc.": "310 920",
+            "Illinois Valley Cellular RSA 2 Partnership": "311 340",
+            "Iowa RSA No. 2 Limited Partnership": "312 170",
+            "Iowa Wireless Services LLC": "310 770",
+            "Jasper": "310 650",
+            "Kaplan Telephone Company Inc.": "310 870",
+            "Keystone Wireless LLC": "312 180",
+            "Lamar County Cellular": "311 310",
+            "Leap Wireless International Inc.": "310 16",
+            "Matanuska Tel. Assn. Inc.": "310 40",
+            "Message Express Co. / Airlink PCS": "310 780",
+            "Michigan Wireless LLC": "311 330",
+            "Minnesota South. Wirel. Co. / Hickory": "310 400",
+            "Missouri RSA No 5 Partnership": "312 220",
+            "Mohave Cellular LP": "310 350",
+            "MTPCS LLC": "310 570",
+            "NEP Cellcorp Inc.": "310 290",
+            "Nevada Wireless LLC": "310 34",
+            "New-Cell Inc.": "310 600",
+            "Nexus Communications Inc.": "311 300",
+            "North Carolina RSA 3 Cellular Tel. Co.": "310 130",
+            "North Dakota Network Company": "312 230",
+            "Northeast Colorado Cellular Inc.": "310 450",
+            "Northeast Wireless Networks LLC": "311 710",
+            "Northstar": "310 670",
+            "Northwest Missouri Cellular Limited Partnership": "311 420",
+            "Panhandle Telephone Cooperative Inc.": "310 760",
+            "PCS ONE": "310 580",
+            "PetroCom": "311 170",
+            "Pine Belt Cellular, Inc.": "311 670",
+            "Plateau Telecommunications Inc.": "310 100",
+            "Poka Lambro Telco Ltd.": "310 940",
+            "Public Service Cellular Inc.": "310 500",
+            "RSA 1 Limited Partnership": "312 160",
+            "Sagebrush Cellular Inc.": "311 350",
+            "SIMMETRY": "310 46",
+            "SLO Cellular Inc / Cellular One of San Luis": "311 260",
+            "Smith Bagley Inc.": "310 320",
+            "Southern Communications Services Inc.": "316 11",
+            "Sprint Spectrum": "312 530",
+            "T-Mobile": "310 250",
+            "Telemetrix Inc.": "310 740",
+            "Testing": "310 14",
+            "Unknown": "310 950",
+            "Texas RSA 15B2 Limited Partnership": "310 860",
+            "Thumb Cellular Limited Partnership": "311 830",
+            "TMP Corporation": "310 460",
+            "Triton PCS": "310 490",
+            "Uintah Basin Electronics Telecommunications Inc.": "312 290",
+            "Union Telephone Co.": "310 20",
+            "United States Cellular Corp.": "310 730",
+            "United Wireless Communications Inc.": "311 650",
+            "USA 3650 AT&T": "310 38",
+            "VeriSign": "310 520",
+            "West Virginia Wireless": "310 530",
+            "Westlink Communications, LLC": "310 340",
+            "Wisconsin RSA #7 Limited Partnership": "311 70",
+            "Yorkville Telephone Cooperative": "310 390"
+        ],
+        [
+            "AT&T Wireless Inc.": "310 560",
+            "Bluegrass Wireless LLC": "311 800",
+            "Verizon Wireless": "311 270",
+            "Cellular Network Partnership LLC": "310 360",
+            "Choice Phone LLC": "310 480",
+            "Consolidated Telcom": "310 60",
+            "Cross Wireless Telephone Co.": "311 140",
+            "East Kentucky Network LLC": "312 130",
+            "GCI Communication Corp.": "311 370",
+            "Iowa RSA No. 2 Limited Partnership": "311 410",
+            "Keystone Wireless LLC": "310 690",
+            "Missouri RSA No 5 Partnership": "312 10",
+            "North Dakota Network Company": "311 610",
+            "Northstar": "310 11",
+            "RSA 1 Limited Partnership": "311 430",
+            "Sprint Spectrum": "311 490",
+            "T-Mobile": "310 160",
+            "Unknown": "310 3",
+            "Thumb Cellular Limited Partnership": "311 50",
+            "Uintah Basin Electronics Telecommunications Inc.": "311 860",
+            "United States Cellular Corp.": "311 220"
+        ],
+        [
+            "AT&T Wireless Inc.": "310 410",
+            "Bluegrass Wireless LLC": "311 440",
+            "Verizon Wireless": "311 275",
+            "Cellular Network Partnership LLC": "312 280",
+            "East Kentucky Network LLC": "312 120",
+            "Missouri RSA No 5 Partnership": "311 920",
+            "Sprint Spectrum": "310 120",
+            "T-Mobile": "310 240",
+            "Unknown": "310 23",
+            "Uintah Basin Electronics Telecommunications Inc.": "310 960"
+        ],
+        [
+            "AT&T Wireless Inc.": "310 380",
+            "Verizon Wireless": "311 480",
+            "Missouri RSA No 5 Partnership": "311 20",
+            "Sprint Spectrum": "316 10",
+            "T-Mobile": "310 660",
+            "Unknown": "310 24"
+        ],
+        [
+            "AT&T Wireless Inc.": "310 170",
+            "Verizon Wireless": "311 280",
+            "Missouri RSA No 5 Partnership": "311 10",
+            "Sprint Spectrum": "312 190",
+            "T-Mobile": "310 230",
+            "Unknown": "310 25"
+        ],
+        [
+            "AT&T Wireless Inc.": "310 150",
+            "Verizon Wireless": "311 485",
+            "Sprint Spectrum": "311 880",
+            "T-Mobile": "310 31",
+            "Unknown": "311 150"
+        ],
+        [
+            "AT&T Wireless Inc.": "310 680",
+            "Verizon Wireless": "310 12",
+            "Sprint Spectrum": "311 870",
+            "T-Mobile": "310 220",
+            "Unknown": "310 26"
+        ],
+        [
+            "AT&T Wireless Inc.": "310 980",
+            "Verizon Wireless": "311 285",
+            "T-Mobile": "310 270"
+        ],
+        [
+            "Verizon Wireless": "311 110",
+            "T-Mobile": "310 210"
+        ],
+        [
+            "Verizon Wireless": "311 390",
+            "T-Mobile": "310 260"
+        ],
+        [
+            "Verizon Wireless": "311 274",
+            "T-Mobile": "310 200"
+        ],
+        [
+            "Verizon Wireless": "311 279",
+            "T-Mobile": "310 300"
+        ],
+        [
+            "Verizon Wireless": "311 484",
+            "T-Mobile": "310 280"
+        ],
+        [
+            "Verizon Wireless": "310 10",
+            "T-Mobile": "310 330"
+        ],
+        [
+            "Verizon Wireless": "311 284",
+            "T-Mobile": "310 800"
+        ],
+        [
+            "Verizon Wireless": "311 489",
+            "T-Mobile": "310 310"
+        ],
+        [
+            "Verizon Wireless": "310 910"
+        ],
+        [
+            "Verizon Wireless": "311 289"
+        ],
+        [
+            "Verizon Wireless": "311 273"
+        ],
+        [
+            "Verizon Wireless": "311 278"
+        ],
+        [
+            "Verizon Wireless": "311 483"
+        ],
+        [
+            "Verizon Wireless": "310 4"
+        ],
+        [
+            "Verizon Wireless": "311 283"
+        ],
+        [
+            "Verizon Wireless": "311 488"
+        ],
+        [
+            "Verizon Wireless": "310 890"
+        ],
+        [
+            "Verizon Wireless": "311 288"
+        ],
+        [
+            "Verizon Wireless": "311 272"
+        ],
+        [
+            "Verizon Wireless": "311 277"
+        ],
+        [
+            "Verizon Wireless": "311 482"
+        ],
+        [
+            "Verizon Wireless": "311 282"
+        ],
+        [
+            "Verizon Wireless": "311 487"
+        ],
+        [
+            "Verizon Wireless": "310 590"
+        ],
+        [
+            "Verizon Wireless": "311 287"
+        ],
+        [
+            "Verizon Wireless": "311 271"
+        ],
+        [
+            "Verizon Wireless": "311 276"
+        ],
+        [
+            "Verizon Wireless": "311 481"
+        ],
+        [
+            "Verizon Wireless": "311 281"
+        ],
+        [
+            "Verizon Wireless": "311 486"
+        ],
+        [
+            "Verizon Wireless": "310 13"
+        ]
+    ]
+]
 let jsonObject3 = [
     "Saudi Arabia": [
         [
             "STC": "50",
             "Bravo": "51",
             "mobily": "54",
-            "Zain": "58"
+            "Zain": [
+                "STC": [
+                    "STC": "53",
+                    "Bravo": "57",
+                    "mobily": "56",
+                    "Zain": [
+                        [
+                            "STC": "53",
+                            "Bravo": "57",
+                            "mobily": "56",
+                            "Zain": "59"
+                        ],
+                        [
+                            "STC": "53",
+                            "Bravo": "57",
+                            "mobily": "56",
+                            "Zain": "59"
+                        ]
+                    ]
+                ]
+            ]
         ],
         [
             "STC": "53",
@@ -21,7 +305,7 @@ let jsonObject3 = [
             "STC": "55"
         ]
     ]
-]
+] as AnyObject
 
 let jsonObject2 = [
     "Saudi Arabia": [
@@ -719,46 +1003,57 @@ func getDictValue(dict:[String: Any]) -> Any?{
             ddict.removeAll()
             let d = dict[item] as? [[String: Any]]
             if (d != nil){
-                ddict.append(contentsOf: d!)
+                ddict = d!
                 ddict2[item] = ddict
             }
         }
     }
     return ddict2
 }
-// [String:[[String:Any]]] goal
 
-//[[String:Any]]  achived
-
-
-
-//let t = getDictValue(dict: dict!)
-let t = getDictValue(dict: jsonObject as! [String : Any])
+let t = getDictValue(dict: jsonObject4 )
 
 //print(t as Any)
 
-func flip(_ dictionary: [String:[[String:Any]]]) -> [String : Dictionary<String, Any>] {
+func flip(_ dictionary: [String:[[String:Any]]]) -> [String : Any] {
     
-    var arrayOfDict = [String : [String: Any]]()
-    
+    var arrayOfDict = [String : Any]()
     let arrayOfValues = dictionary.values.map{ $0 }
     let arrayOfKeys = dictionary.keys.map{ $0 }
     var newDictionary: [String: Any] = [:]
+    var arrayOfNewDictionary = [[String: Any]]()
+    
+    print("ELE: \(type(of: arrayOfValues))")
     for (index, element) in arrayOfValues.enumerated() {
-        newDictionary.removeAll()
+        arrayOfNewDictionary.removeAll()
         for v in element {
+            newDictionary.removeAll()
             let values = v.values.map{ $0 }
             let keys = v.keys.map{ $0 }
             for (index, element) in values.enumerated() {
+                //print("ELE here: \(element)")
+                //print("ELE: \(type(of: element))")
+                //print("DICT: \(type(of: dictionary)) \n")
+                if type(of: element) == type(of: Dictionary<String, Dictionary<String, Any>>()) {
+                    print("Go here")
+                    //print("ELE: \(type(of: element))")
+                    //flip(element as! [String : [[String : Any]]])
+                }
                 newDictionary["\(element)"] = keys[index]
             }
+            arrayOfNewDictionary.append(newDictionary)
         }
-        arrayOfDict[arrayOfKeys[index]] = newDictionary
+        arrayOfDict[arrayOfKeys[index]] = arrayOfNewDictionary
     }
     
     return arrayOfDict
     
 }
+
+func flipFUnctionality() {
+    
+}
+
 
 let dictArray = flip(t as! [String : [[String : Any]]])
 //print(dictArray)
@@ -768,7 +1063,6 @@ func convertDictToJSON(dict: Any) -> String {
     do {
         let jsonObject5 = try JSONSerialization.data(withJSONObject: dict, options: JSONSerialization.WritingOptions.prettyPrinted)
         if let jsonString = String(data: jsonObject5, encoding: .utf8) {
-            //print(jsonString)
             jString = jsonString
         }
     } catch let error {
